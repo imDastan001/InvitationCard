@@ -1,0 +1,61 @@
+body{
+    background: url('b.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: weight 400px;
+
+}
+h1{
+    margin-bottom: 0px;
+}
+p{
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.childcontainer{
+    margin-top: 0px;
+}
+
+ol{
+    margin-top: 4px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    line-height: 0.8;
+    font-size: 1.2rem;
+}
+
+td + td {
+width: 50%;
+
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.childcontainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2{
+    margin-bottom: 4px;
+}
+.items{
+    flex: 1;
+
+}
+.procedure{
+    flex: 1;
+
+}
